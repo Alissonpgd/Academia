@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height:auto;
+    font-size: 18px;
+    background-image: linear-gradient(90deg, #C0D731, black);
+}
+
+.box {
+    color: black;
+    font-size: 11px;
+    align-items: center;
+    width: 30px;
+    height: 25px;
+    box-sizing: 3px;
+    background-color: orange;
+    border: solid 3px orange;
+}
+
+.action {
+    background-color: darkgrey;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*.add-user {
+    width: auto;
+    height: 50px;
+    margin-bottom: 100%;
+}*/
+
+#btn-add {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 60px;
+    bottom: 60px;
+    background-color: #F8F9FA;
+    border: none;
+    border-radius: 50px;
+    color: rgb(68, 66, 66);
+    font-size: 1.5rem;
+    font-weight: bold;
+    box-shadow: 0.1em 0 0.3em olive;
+}
+
+#btn-add:hover {
+    transition: 0.3ms;
+    background-color: #C0D731;
+    box-shadow: 0.1em 0 0.3em rgb(235, 235, 187);
+}

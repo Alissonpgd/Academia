@@ -1,0 +1,61 @@
+
+
+<div class="container" th:fragment="form(requisicaoFormAluno, action)">
+
+        <form th:object="${requisicaoFormAluno}" th:action="${action}" method="POST">
+            <div class="mb-1">
+                <label class="form-label">Nome</label>
+                <input class="form-control" th:errorclass="is-invalid" type="text" th:field="*{nome}"  placeholder="Nome">
+                <div class="invalid-feedback" th:errors="*{nome}" ></div>
+            </div>
+            <div class="mb-1">
+                <label class="form-label">Whatsapp</label>
+                <input class="form-control" th:errorclass="is-invalid" type="text" th:field="*{whatsapp}" placeholder="Whatsapp">
+                <div class="invalid-feedback" th:errors="*{whatsapp}" ></div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <label class="form-label">Data</label>
+                    <input class="form-control" th:errorclass="is-invalid" type="text" th:field="*{data}"  placeholder="Data">
+                    <div class="invalid-feedback" th:errors="*{data}" ></div>
+                </div>
+                <div class="col-6">
+                    <label class="form-label">Status</label>
+                    <select class="form-select" th:field="*{statusAluno}">
+                        <option th:each="status : ${listaStatusAluno}"
+                                th:value="${status}" th:text="${status}"></option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:15px">
+                <div class="col">
+                    <label class="form-label">Peso</label>
+                    <input class="form-control" th:errorclass="is-invalid" type="number" th:field="*{peso}"  placeholder="Peso">
+                    <div class="invalid-feedback" th:errors="*{peso}" ></div>
+                </div>
+                <div class="col">
+                    <label class="form-label">Altura</label>
+                    <input class="form-control" th:errorclass="is-invalid" type="number" th:field="*{altura}"  placeholder="Altura">
+                    <div class="invalid-feedback" th:errors="*{altura}" ></div>
+                </div>
+                <div class="col-2">
+                    <label class="form-label">Valor</label>
+                    <input class="form-control" th:errorclass="is-invalid" type="text" th:field="*{valor}" placeholder="Valor">
+                    <div class="invalid-feedback" th:errors="*{valor}"></div>
+                </div>
+            </div>
+            <div class="col">
+                <button style="width:80px;height:35px;color:white;font-size:16px; background:#008000;border:none; border-radius:8px;margin-bottom: 15px;" type="submit">
+                       Salvar
+                </button>
+                <button Style="width:80px;height:35px;color:white;font-size:16px; background:#008000;border:none; border-radius:8px;margin-left:15px;">
+                    <a  style="color:white; text-decoration:none;" href="javascript:history.back()">Voltar</a>
+                </button>
+            </div>
+
+        </form>
+
+</div>
+
+

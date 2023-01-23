@@ -1,0 +1,61 @@
+body {
+    height: auto;
+    background-image: linear-gradient(45deg, #C0D731, black);
+}
+
+.container-login {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.container-login-user {
+    align-items: center;
+    flex-direction: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.user {
+    margin-left: 28%;
+    color: #C0D731;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 260px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+button {
+    background-color: #C0D731;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 280px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 3px black;
+}
+
+button:hover {
+    background-image: linear-gradient(45deg, #C0D731, black);
+    transition-delay: 0.4ms;
+    color: black
+}

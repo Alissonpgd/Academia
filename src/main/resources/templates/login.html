@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/style.css">
+<!--    <script src="/js/login"></script>-->
+    <title>Login</title>
+</head>
+
+<body>
+
+    <div class="container-login">
+        <img src="img/UpLife_2.png" alt="logo">
+        <div class="container-login-user">
+            <h1 class="user">SIGN IN</h1>
+            <input id="name" placeholder="Name">
+            <br>
+            <br>
+            <input type="password" id="password" placeholder="Password">
+            <br>
+            <br>
+            <button id="submit" onClick="Sign()">ENTRAR</button>
+            <br> <br>
+
+        </div>
+
+    </div>
+
+    <script>
+            function Sign() {
+    
+
+                var usuario = document.getElementById('name')
+                var senha = document.getElementById('password')
+
+
+                    if (usuario.value !== "Glaubiano21") {
+                        alert("Usuario Invalido!");
+
+                    } else if (senha.value !== "UpLife_2021") {
+                        alert("Senha Invalida!")
+                    } else {
+                        alert("Seja Bem Vindo!")
+                        window.location.href = "/home"
+                    }
+            }
+    </script>
+
+</body>
+</html>
