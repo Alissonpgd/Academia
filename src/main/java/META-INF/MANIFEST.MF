@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: jaxb-runtime-4.0.1.jar jakarta.xml.bind-api-4.0.0.jar jackso
+ n-databind-2.14.1.jar spring-tx-6.0.4.jar micrometer-commons-1.10.3.jar
+  spring-boot-starter-aop-3.0.2.jar spring-boot-starter-thymeleaf-3.0.2.
+ jar snakeyaml-1.33.jar thymeleaf-3.1.1.RELEASE.jar jboss-logging-3.5.0.
+ Final.jar jackson-datatype-jdk8-2.14.1.jar spring-webmvc-6.0.4.jar jaka
+ rta.persistence-api-3.1.0.jar log4j-to-slf4j-2.19.0.jar logback-classic
+ -1.4.5.jar spring-expression-6.0.4.jar micrometer-observation-1.10.3.ja
+ r spring-core-6.0.4.jar hibernate-validator-8.0.0.Final.jar spring-boot
+ -starter-validation-3.0.2.jar antlr4-runtime-4.10.1.jar txw2-4.0.1.jar 
+ jackson-module-parameter-names-2.14.1.jar jaxb-core-4.0.1.jar jakarta.t
+ ransaction-api-2.0.1.jar spring-boot-starter-jdbc-3.0.2.jar logback-cor
+ e-1.4.5.jar jackson-core-2.14.1.jar spring-aop-6.0.4.jar spring-boot-st
+ arter-json-3.0.2.jar spring-jcl-6.0.4.jar jakarta.validation-api-3.0.2.
+ jar spring-boot-starter-data-jpa-3.0.2.jar thymeleaf-spring6-3.1.1.RELE
+ ASE.jar istack-commons-runtime-4.1.1.jar jakarta.activation-api-2.1.1.j
+ ar unbescape-1.1.6.RELEASE.jar spring-boot-3.0.2.jar spring-beans-6.0.4
+ .jar classmate-1.5.1.jar jackson-datatype-jsr310-2.14.1.jar spring-data
+ -jpa-3.0.1.jar spring-jdbc-6.0.4.jar slf4j-api-2.0.6.jar spring-boot-st
+ arter-3.0.2.jar spring-context-6.0.4.jar angus-activation-1.0.0.jar tom
+ cat-embed-el-10.1.5.jar jakarta.annotation-api-2.1.1.jar jackson-annota
+ tions-2.14.1.jar hibernate-commons-annotations-6.0.2.Final.jar spring-b
+ oot-starter-web-3.0.2.jar hibernate-core-6.1.6.Final.jar spring-boot-de
+ vtools-3.0.2.jar HikariCP-5.0.1.jar aspectjweaver-1.9.19.jar byte-buddy
+ -1.12.22.jar jakarta.inject-api-2.0.0.jar jandex-2.4.2.Final.jar attopa
+ rser-2.0.6.RELEASE.jar spring-aspects-6.0.4.jar spring-web-6.0.4.jar lo
+ g4j-api-2.19.0.jar jul-to-slf4j-2.0.6.jar spring-boot-starter-logging-3
+ .0.2.jar spring-orm-6.0.4.jar spring-boot-autoconfigure-3.0.2.jar sprin
+ g-data-commons-3.0.1.jar mysql-connector-j-8.0.32.jar
+
