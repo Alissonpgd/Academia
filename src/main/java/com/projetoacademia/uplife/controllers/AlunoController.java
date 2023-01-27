@@ -6,8 +6,10 @@ import com.projetoacademia.uplife.models.StatusAluno;
 import com.projetoacademia.uplife.repositories.AlunoRepository;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
@@ -23,6 +25,7 @@ public class AlunoController {
     @Autowired
     private AlunoRepository alunoRepository;
 
+
     //Lista Todos os Alunos//
     @GetMapping("")
     public ModelAndView index(){
@@ -32,8 +35,10 @@ public class AlunoController {
         ModelAndView mv = new ModelAndView("alunos/index");
         mv.addObject("alunos", alunos);
 
+
         return mv;
     }
+
 
     //Formulario para criar um novo Aluno//
     @GetMapping("/new")
